@@ -1,0 +1,32 @@
+[debug] [2018-02-03T00:30:12.288Z] ----------------------------------------------------------------------
+[debug] [2018-02-03T00:30:12.290Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-02-03T00:30:12.290Z] CLI Version:   3.16.0
+[debug] [2018-02-03T00:30:12.290Z] Platform:      linux
+[debug] [2018-02-03T00:30:12.290Z] Node Version:  v6.12.3
+[debug] [2018-02-03T00:30:12.290Z] Time:          Fri Feb 02 2018 19:30:12 GMT-0500 (EST)
+[debug] [2018-02-03T00:30:12.290Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-02-03T00:30:12.297Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-02-03T00:30:12.297Z] > authorizing via signed-in user
+[debug] [2018-02-03T00:30:12.299Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/gintunca-test  
+  
+ Fri Feb 02 2018 19:30:12 GMT-0500 (EST)
+[debug] [2018-02-03T00:30:12.677Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-03T00:30:12.678Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/gintunca-test/tokens  
+  
+ Fri Feb 02 2018 19:30:12 GMT-0500 (EST)
+[debug] [2018-02-03T00:30:13.047Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/neil/Documents/website/git/nrobinson.ca'...
+[info] 
+[debug] [2018-02-03T00:30:13.055Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/gintunca-test  
+  
+ Fri Feb 02 2018 19:30:13 GMT-0500 (EST)
+[debug] [2018-02-03T00:30:13.449Z] <<< HTTP RESPONSE 200
+[debug] [2018-02-03T00:30:13.450Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/480598424999/clients/_:getWebAppConfig  
+  
+ Fri Feb 02 2018 19:30:13 GMT-0500 (EST)
+[debug] [2018-02-03T00:30:13.829Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
