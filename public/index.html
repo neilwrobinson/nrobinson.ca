@@ -16,30 +16,61 @@
   //border: 1px dashed blue;
 }
 
+.aboutme-content {
+  position: relative;
+  height: 500px;
+  width: auto;
+  background-color: #f3f3f3;
+  background-size: cover;
+}
+
+.expertise-content {
+  position: relative;
+  width: auto;
+  background-size: cover;
+}
+
+.expertise-card.mdl-card {
+  width: 500px;
+
+}
+
 .page-content {
-  padding: 20px;
+  padding: 0px;
 }
 
 .demo-card-wide.mdl-card {
+
   width: 60%;
   margin: 0 auto;
 }
 .mdl-card__title {
-  background-color: #263238;
+  background-color: rgb(33,150,243);
+  color: rgb(255,255,255);
 }
+
 
 .demo-card-wide > .mdl-card__title {
   height: 100px;
-
-
 }
 
+.demo-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #767777;
+  font-weight: 500;
+}
 
 </style>
 
 
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-  <header class="mdl-layout__header">
+  <header class="mdl-layout__header mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title">Neil Robinson</span>
@@ -49,21 +80,81 @@
         <a class="mdl-navigation__link" href="">Resume</a>
         <a class="mdl-navigation__link" href="">Link</a>
       </nav>
+      <img src="images/neil_robinson.jpg" class="demo-avatar">
     </div>
   </header>
   <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Neil Robinson</span>
+    <img src="images/neil_robinson.jpg" class="demo-avatar center">
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="">About me</a>
+      <a class="mdl-navigation__link" href="#aboutme">About me</a>
       <a class="mdl-navigation__link" href="">Resume</a>
       <a class="mdl-navigation__link" href="">Link</a>
     </nav>
+
   </div>
   <main clas="mdl-layout__content">
+
+    <!-- Aboutme Section -->
+    <div class="aboutme-content">
+      <div class="mdl-typography--text-center mdl-color-text--grey-600">
+      who am I?
+      </div>
+      <div class="mdl-typography--text-center">
+        Hello my name is Neil and I am a Chartered Professional Accountant. I love all things finance
+        I also have a itching for technology and I practice yoga each day.
+      </div>
+    </div>
+
+    <!-- Expertise Section -->
+    <div class="expertise-content">
+      <div class="mdl-typography--text-center mdl-color-text--grey-600">
+      Expertise
+      </div>
+      <!-- Expertise cards -->
+      <div class="expertise-card mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">Tax</div>
+        <div class="mdl-card__supporting-text">
+          <ul>
+            <li>Personal Tax</li>
+            <li>Corporate Tax</li>
+            <li>GST/HST and Excise Tax</li>
+          </ul>
+        </div>
+        <div class="mdl-card_actions">
+          <span>More details</span>
+        </div>
+      </div>
+      <div class="mdl-card">
+        <div class="mdl-card__title">Tax</div>
+        <div class="mdl-card__supporting-text">
+          <ul>
+            <li>Personal Tax</li>
+            <li>Corporate Tax</li>
+            <li>GST/HST and Excise Tax</li>
+          </ul>
+        </div>
+        <div class="mdl-card_actions">
+          <span>More details</span>
+        </div>
+      </div>
+
+    </div>
+
    <div class="page-content">
+
+
+
+     <!-- about me card -
+     likely to be superceded by the aboutme-content class
+     -->
      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
        <div class="mdl-card__title">
-         <h3 class="mdl-card__title-text">Neil Robinson, CPA, CA</h3>
+         <h1 id="aboutme" class="mdl-card__title-text">
+           About me: <br>
+           Neil Robinson, CPA, CA
+         </h1>
+         <h4 class="mdl-card__title-text"></h4>
        </div>
        <div class="mdl-card__supporting-text">
          Hello my name is Neil and I am a Chartered Professional Accountant. I love all things finance
@@ -77,15 +168,35 @@
 
    </div>
 
+   <!-- Expertise card -->
+   <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+     <div class="mdl-card__title">
+       <h1 id="aboutme" class="mdl-card__title-text">Expertise</h1>
+       <h4 class="mdl-card__title-text"></h4>
+     </div>
+     <div class="mdl-card__supporting-text">
+       Hello my name is Neil and I am a Chartered Professional Accountant. I love all things finance
+       I also have a itching for technology and I practice yoga each day.
+     </div>
+     <div class="mdl-card__menu">
+       <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+         <i class="material-icons">share</i>
+       </button>
+   </div>
+
+ </div>
+
 
 
 
   </main>
-  <footer class="mdl-mini-footer">
-    <div class="mdl-mini-footer--left-section">
-      <ul class="mdl-mini-footer--link-list">
+  <footer class="mdl-mega-footer">
+    <div class="mdl-mega-footer--left-section">
+
+      <ul class="mdl-mega-footer--link-list">
         <li><a href="#">Help</a></li>
       </ul>
+      <p>© Copyright Neil Robinson. All rights reserved.</p>
     </div>
   </footer>
 </div>
