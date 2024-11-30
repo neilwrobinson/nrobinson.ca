@@ -3,6 +3,7 @@ title: "Income Tax for Yoga Instructors"
 description: "A guide for Yoga Instructors for filing their income tax"
 
 featuredImage: "/images/2016-03-16/yoga-bw.webp"
+featuredImageAlt: "person standing on a yoga mat"
 
 date: 2016-03-16T18:19:54-05:00
 lastmod: 2020-01-12T12:19:54-05:00

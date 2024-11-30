@@ -4,7 +4,7 @@
 			<h1 class="fw1 measure f2-ns mv0 black-80 avenir">{{ .Title }}</h1>
 			<time class="measure f6-ns black-80 avenir" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006 at 15:04" }}</time>
 			{{ if .Params.featuredImage }}
-				<img src="{{ .Params.featuredImage | absURL }}" class="db w-50 mt3" alt="">
+				<img src="{{ .Params.featuredImage | absURL }}" class="db w-50 mt3" alt="{{ .Params.featuredImageAlt }}">
 			{{ end }}
 			<div class="f5 lh-copy measure-wide f4-ns black-80">
 				{{ .Content }}

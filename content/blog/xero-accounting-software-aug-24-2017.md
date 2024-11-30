@@ -3,7 +3,7 @@ title =  "Xero Accounting Software"
 date = 2017-08-24T23:48:29-04:00
 
 featuredImage = "/images/2017-08-24/laptop-and-calculator.webp"
-
+featuredImageAlt = "laptop and calculator"
 slug = ""
 tags = [
   "Xero",
