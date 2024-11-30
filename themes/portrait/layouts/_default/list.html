@@ -1,0 +1,24 @@
+{{ define "main" }}
+	
+	<main class="pa3 pa5-ns">
+		
+		<section class="mw7 center avenir">
+			{{ if or .Title .Content }}
+			<div>
+				{{ with .Title }}<h1 class="fw1 black-80 avenir ph3 ph0-l">{{ . }}</h1>{{ end }}
+				{{ with .Content }}<div>{{ . }}</div>{{ end }}
+			</div>
+			{{ end }}
+
+		
+		
+			{{ range .Paginator.Pages }}
+				{{ .Render "summary" }}
+			{{ end }}
+		</section>
+			
+		
+	</main>
+{{ partial "pagination.html" . }}
+{{ partial "sidebar.html" . }}
+{{ end }}

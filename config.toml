@@ -1,0 +1,51 @@
+baseURL = 'https://nrobinson.ca/'
+languageCode = 'en-us'
+title = 'Neil Robinson'
+
+theme = "portrait"
+paginate = 5
+
+googleAnalytics = "UA-142565211-1"
+
+[services]
+  [services.disqus]
+    shortname = 'nrobinson'
+
+
+[Params]
+author = "Neil Robinson, CPA, CA"
+intro = "Chartered Professional Accountant"
+subtitle = ''
+description = ""
+authorimage = "neil_robinson.jpg"
+dateformat = "Jan 2, 2006"
+
+[Params.meta]
+description = "Neil Robinson, CPA, CA - Accountant"
+keywords = "accountant, finance, CPA, CA, Chartered Professional Accountant"
+
+[[menu.main]]
+name = "home"
+weight=100
+url = "/"
+[[menu.main]]
+name = "blog"
+weight=200
+url = "/blog"
+[[menu.main]]
+name = "about me"
+weight=300
+url ="/about"
+#[[menu.main]]
+#name = "resume"
+#weight=400
+#url ="/resume"
+#[[menu.main]]
+#name = "contact"
+#weight=500
+#url ="/contact"
+
+[Params.footer]
+copyright = "Neil Robinson This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+copyrightLink = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+

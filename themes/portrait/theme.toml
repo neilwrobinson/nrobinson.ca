@@ -1,0 +1,7 @@
+name = "Neil Robinson Portrait Theme"
+license = "MIT"
+description = "Basic theme for a personal landing page"
+min_version ="0.1.0"
+
+[author]
+    name = "Neil Robinson"

@@ -1,0 +1,33 @@
+			<article article class="bt bb b--black-10">
+				<a href="{{ .Permalink }}" class="db pv4 ph3 ph0-l no-underline black-80 dim">
+					<div class="flex flex-column flex-row-ns">
+						<div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
+							{{ if .Params.featuredImage }}
+								<img src="{{ .Params.featuredImage | absURL }}" class="db" alt="Photo of a dimly lit room with a computer interface terminal.">
+							{{ end }}
+						</div>
+						
+						<div class="w-100 w-60-ns pl3-ns">
+							<h1 class="f3 fw1 avenir mt0 mb0 lh-title">{{ .Title }}</h1>										
+							
+							<time class="f6 lh-copy avenir" datetime="{{ .Date.Format "2006-01-02T15:04:05" }}">{{ .Date.Format "January 2, 2006 at 15:04" }}</time>
+
+							<div>
+								<p class="f6 f5-l lh-copy">{{ .Summary }}</p>
+								{{ if .Truncated }}
+									<!-- <a href="{{ .Permalink }}" class="f6 lh-copy mv0">Read more...</a>-->
+									
+								{{ end }}
+							</div>
+
+							
+							{{ range .Params.tags }}
+								<!-- <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="f6 lh-copy mv0">{{ . }}</a> -->
+							{{ end }}	
+
+						</div>
+
+									
+					</div>
+				</a>
+			</article>

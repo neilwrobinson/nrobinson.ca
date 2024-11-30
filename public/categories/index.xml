@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Neil Robinson</title>
+    <link>https://nrobinson.ca/categories/</link>
+    <description>Recent content in Categories on Neil Robinson</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Jan 2020 12:19:54 -0500</lastBuildDate>
+    <atom:link href="https://nrobinson.ca/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Accounting</title>
+      <link>https://nrobinson.ca/categories/accounting/</link>
+      <pubDate>Thu, 24 Aug 2017 23:48:29 -0400</pubDate>
+      <guid>https://nrobinson.ca/categories/accounting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Deductible Yoga Instructor Expenses</title>
+      <link>https://nrobinson.ca/categories/deductible-yoga-instructor-expenses/</link>
+      <pubDate>Wed, 16 Mar 2016 18:19:54 -0500</pubDate>
+      <guid>https://nrobinson.ca/categories/deductible-yoga-instructor-expenses/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tax</title>
+      <link>https://nrobinson.ca/categories/tax/</link>
+      <pubDate>Wed, 16 Mar 2016 18:19:54 -0500</pubDate>
+      <guid>https://nrobinson.ca/categories/tax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Yoga Instructor Income Tax</title>
+      <link>https://nrobinson.ca/categories/yoga-instructor-income-tax/</link>
+      <pubDate>Wed, 16 Mar 2016 18:19:54 -0500</pubDate>
+      <guid>https://nrobinson.ca/categories/yoga-instructor-income-tax/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

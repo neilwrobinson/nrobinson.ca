@@ -1,0 +1,14 @@
+<aside>
+	<div class="mt4 mw8 center mt4">
+		<div>
+			<h2 class="h1-title tracked black-70 avenir">Recent Posts</h2>
+		</div>
+		<div>
+			<ul>
+				{{ range first 5 (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+				<li class="list ph0"><a class="mt2 mb2 f4 fw6 db dark-blue link dim avenir" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+				{{ end }}
+			</ul>
+		</div>
+	</div>
+</aside>

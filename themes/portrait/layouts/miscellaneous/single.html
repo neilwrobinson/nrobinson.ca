@@ -1,0 +1,31 @@
+{{ define "main" }}
+	<main>
+		<article class="mw8 center mt4 pa2 pa4-ns">
+			<h1 class="fw1 measure f2-ns mv0 black-80 avenir">{{ .Title }}</h1>
+			
+			{{ if .Params.featuredImage }}
+				<img src="{{ .Params.featuredImage | absURL }}" class="db w-50 mt3" alt="">
+			{{ end }}
+			<div class="f5 lh-copy measure-wide f4-ns black-80">
+				{{ .Content }}
+				
+			</div>
+			<section>
+				{{ partial "disqus.html" . }}
+			</section>
+			{{ with .Params.tags }}
+			<h2 class="h1-title black-70 avenir">tags</h2>
+			<div>
+				<ul id="tags">
+					{{ range . }}
+					<li class="list pl0"><a class="f4 fw6 db navy link dim avenir" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+
+
+		</article>
+	</main>
+{{ partial "sidebar.html" . }}
+{{ end }}

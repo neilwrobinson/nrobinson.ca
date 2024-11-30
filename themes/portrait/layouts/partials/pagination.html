@@ -1,0 +1,11 @@
+<nav class="bg-white black-80 tc pv4 avenir">
+    <div class="bt bb tc mw8 center mt4">
+        {{ if .Paginator.HasPrev }}
+            <a class="f6 f5-1 link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" href="{{ .Paginator.Prev.URL }}">Previous Page</a>
+        {{ end }}
+        <span class="f6 f5-1 black-80 dib pa3 ph4-l">{{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}</span>
+        {{ if .Paginator.HasNext }}
+            <a class="f6 f5-1 link bg-animate black-80 hover-bg-lightest-blue dib pa3 ph4-l" href="{{ .Paginator.Next.URL }}">Next Page</a>
+        {{ end }}
+    </div>
+</nav>
