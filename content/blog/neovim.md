@@ -1,7 +1,7 @@
 ---
 title: "Learning Neovim"
 date: 2024-11-29T21:12:34-05:00
-draft: true
+draft: false
 featuredImage: "/images/2024-11-29/NEOVIM-TITLE.webp"
 featuredImageAlt: "Neovim Screenshot"
 ---
