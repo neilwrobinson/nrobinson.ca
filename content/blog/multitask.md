@@ -4,7 +4,7 @@ date: 2024-12-19T12:53:17-05:00
 draft: false 
 featuredImage: "/images/2024-12-19/cyclist-multitasking-bw.jpg"
 featuredImageAlt: "women on a bike multitasking" 
-
+tags: ["Multitask"]
 ---
 
 #  The Multitasking Myth
