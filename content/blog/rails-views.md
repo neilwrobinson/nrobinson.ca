@@ -1,9 +1,9 @@
 ---
 title: "Rails Views with multiple assocations"
 date: 2024-12-24T08:21:26-05:00
-draft: true
-featuredImage: 
-featuredImageAlt:
+draft: false
+featuredImage: "/images/2024-12-24/2024-12-24-Rails-Views.webp" 
+featuredImageAlt: "Picture of a Rails ActionView field_for :tag example"
 ---
 I am learning how to create and handle Rails ActionViews with multiple associations. There are many ways to handle associations in rails and I have not seen a consistent use of one paradigm. It is a challenge to think through which model should be saved first, what associated data may already be in the database that you can use ```option_from_collection_for_select``` or the fields_for method, or determine which view to modify to bring in the association. 
 
