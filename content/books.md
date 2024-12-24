@@ -3,7 +3,9 @@ title: "Books"
 date: 2022-12-27T11:16:37-04:00
 showcomments: false
 draft: true
+type: 'miscellaneous'
 ---
+Last updated on December 24, 2024.
 
 Here's a list of my book recommendations:
 
@@ -20,11 +22,12 @@ Here's a list of my book recommendations:
 
 ### Education and Learning
 
-* change your questions change your life by Adams, Marilee
+* Change your Questions Change your Life by Adams, Marilee
 * How to Make Sense of Any Mess: Information Architecture for Everybody by Covert, Abby
 * The Coddling of the American Mind by Lukianoff, Greg and Haidt, Jonathan
 * The Effective Executive by Drucker, Peter F.
 * Think Like a Rocket Scientist by Varol, Ozan
+* Ultralearning: Master Hard skills, Outsmart your Competition, and Accelerate Your Career by Young, Scott H.
 * Ungifted Intelligence Redefined - Trust about Talent, Practice, Creativity, and the Many Paths to Greatness by Kaufman, Scott Barry
 
 ### Health
@@ -58,18 +61,27 @@ Here's a list of my book recommendations:
 
 ### Technology
 
+#### General
 * Click Here to Kill Everybody by Schneier, Bruce
+
+#### Java
 * Core Java Volume I - Fundamentals Eleventh Edition by Horstmann, Cay S.
 * Core Java Volume II - Fundamentals Eleventh Edition by Horstmann, Cay S.
+
+#### Ruby
+* Agile Web Development with Rails 7 by Ruby, Sam with Thomas, Dave
 * Design Patterns in Ruby by Olsen, Russ
 * Eloquent Ruby by Olsen, Russ
+* Metaprogramming, 2nd Edition by Perrotta, Paolo
+* Ruby on Rails Background Jobs with Sidekiq, by Copeland, David Bryant
+* Sustainable Web Development with Ruby on Rails by Copeland, David Bryant
 
 ### Work 
 
 * Getting Things Done: The Art of Stress-Free Productivity by Allen, David
 
 ### Writing
-
+* The Chicago Guide to Grammar, Usage, and Punctuation by Garner, Bryan A.
 * Dreyer's English by Dreyer, Benjamin
 * On Writing Well by Zinsser, William
 * Several Short Sentences About Writing by Klinkenborg, Verlyn
