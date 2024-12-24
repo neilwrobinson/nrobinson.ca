@@ -5,7 +5,7 @@ draft: true
 featuredImage: 
 featuredImageAlt:
 ---
-I am learning how to create and handle Rails ActionViews with multiple associations. There are many ways to handle associations in rails and I have not seen a consistent use of one paradigm. It is a challenge to think through which should come first or what associated data may already be in the database, and there is no need to recreate a create form view for this component. 
+I am learning how to create and handle Rails ActionViews with multiple associations. There are many ways to handle associations in rails and I have not seen a consistent use of one paradigm. It is a challenge to think through which model should be saved first, what associated data may already be in the database that you can use ```option_from_collection_for_select``` or the fields_for method, or determine which view to modify to bring in the association. 
 
 The key component is learning which model will load the most tables when performing the save action ```@model.save``` when handling multiple tables because of associated models.
 
@@ -28,8 +28,18 @@ For example, here's how to set a symbol as a :tag.
 
 ```<%= form.text_field :tag %>```
 
-Then you can expect your field via params.expect(model: [:tag]) in your controller and set it to your model object in your controller and save to your data base.
+Then you can pick up this value by setting the expect method your field like
+```params.expect(model: [:tag])```
+in your controller and assign it to your model object in your controller and save to your data base.
+
+## fields_for method
+Method parameters: (record_name, record_object = nil, fields_options = nil, &block)
+
+The fields_for creates a scope around a model with form_with, but doesn't create form tags. So we can use this method to create additional model objects in the same form.[^3]
+
+https://api.rubyonrails.org/v8.0.1/classes/ActionView/Helpers/FormBuilder.html#method-i-fields_for
 
 #### Sources and Credits:
 [^1]: https://guides.rubyonrails.org/association_basics.html#has-many-through
 [^2]: https://guides.rubyonrails.org/form_helpers.html#form-input-naming-conventions-and-params-hash
+[^3]: https://api.rubyonrails.org/v8.0.1/classes/ActionView/Helpers/FormBuilder.html#method-i-fields_for
