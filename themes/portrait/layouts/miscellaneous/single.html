@@ -10,9 +10,11 @@
 				{{ .Content }}
 				
 			</div>
-			<section>
-				{{ partial "disqus.html" . }}
-			</section>
+      {{ if .Params.showcomments }}
+			  <section>
+				  {{ partial "disqus.html" . }}
+			  </section>
+      {{ end }}
 			{{ with .Params.tags }}
 			<h2 class="h1-title black-70 avenir">tags</h2>
 			<div>
