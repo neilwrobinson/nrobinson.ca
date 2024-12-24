@@ -37,6 +37,8 @@ Method parameters: (record_name, record_object = nil, fields_options = nil, &blo
 
 The fields_for creates a scope around a model with form_with, but doesn't create form tags. So we can use this method to create additional model objects in the same form.[^3]
 
+The fields_for method is great for specific objects outside of the main object form_with function. I tried it out today, and it seems to make the most sense to bring associated models into the controller.
+
 https://api.rubyonrails.org/v8.0.1/classes/ActionView/Helpers/FormBuilder.html#method-i-fields_for
 
 #### Sources and Credits:
