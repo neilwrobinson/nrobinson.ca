@@ -10,7 +10,7 @@ Last updated on December 24, 2024.
 Here's a list of my book recommendations:
 
 ### Biographies
-* Elon Muk: Telsa, SpaceX, and the Quest for a Fantastic Future by Vance, Ashlee
+* Elon Musk: Telsa, SpaceX, and the Quest for a Fantastic Future by Vance, Ashlee
 
 ### Business
 * Every Job is a Sales Job: How to Use the Art of Selling to Win at Work by McGovern, Cindy
@@ -41,7 +41,7 @@ Here's a list of my book recommendations:
 * So Good They Can't Ignore You
 
 
-### Self-realizaiton
+### Self-realization
 
 * Living the 80/20 Way by Koch, Richard
 * The Four Agreements by Ruiz, Don Miguel
@@ -67,6 +67,7 @@ Here's a list of my book recommendations:
 #### Java
 * Core Java Volume I - Fundamentals Eleventh Edition by Horstmann, Cay S.
 * Core Java Volume II - Fundamentals Eleventh Edition by Horstmann, Cay S.
+* Think Java by Allen B. Downey and Chris Mayfield
 
 #### Ruby
 * Agile Web Development with Rails 7 by Ruby, Sam with Thomas, Dave
