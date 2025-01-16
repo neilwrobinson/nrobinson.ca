@@ -1,7 +1,7 @@
 ---
 title: "Rails Transaction Do"
 date: 2025-01-15T21:58:48-05:00
-draft: true
+draft: false
 featuredImage: "/images/2024-12-24/2024-12-24-Rails-Views.webp"
 featuredImageAlt: "Picture of a Rails ActionView field_for :tag example"
 tags: ["Rails", "Transactions", "Rails models", "Ruby on Rails"]
