@@ -2,9 +2,9 @@
 title: "MSI Mime Type"
 date: 2025-01-05T09:23:09-05:00
 draft: false
-featuredImage:
-featuredImageAlt:
-
+featuredImage: "/images/2025-01-05/2025-01-05-MSI-Installer-ScreenShot.png"
+featuredImageAlt: "Screenshot of Browser Inspection Tab"
+tags: ["MIME", "Web"]
 ---
 ## What is the name for the MIME Type for MSI Files? 
 
@@ -17,3 +17,6 @@ With all the inconsistent search results and without having to rely on the AI ou
 ## Conclusion: 
 
 MIME Type for MSI files is application/octet-stream. 
+
+### Proof:
+![Screenshot of Browser Inspection Tab](/images/2025-01-05/2025-01-05-MSI-Installer-ScreenShot.png "Screenshot of Browser Inspection Tab")
