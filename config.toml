@@ -5,9 +5,11 @@ title = 'Neil Robinson'
 theme = "portrait"
 paginate = 5
 
-googleAnalytics = "UA-142565211-1"
+googleAnalytics = "G-EKD5M31L6Z"
 
 [services]
+  [services.googleAnalytics]
+    id = 'G-EKD5M31L6Z'
   [services.disqus]
     shortname = 'nrobinson'
 
