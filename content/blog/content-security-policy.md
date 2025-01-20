@@ -1,7 +1,7 @@
 ---
 title: "Content Security Policy"
 date: 2025-01-19T20:25:05-05:00
-draft: true
+draft: false
 featuredImage: "/images/2025-01-19/ContentSecurityPolicy3_diagram.png"
 featuredImageAlt: "Diagram showing various tags wired an application server"
 tags: ["CSP", "Rails nonce"]
