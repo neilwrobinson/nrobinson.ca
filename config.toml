@@ -3,9 +3,13 @@ languageCode = 'en-us'
 title = 'Neil Robinson'
 
 theme = "portrait"
-paginate = 5
+
 
 googleAnalytics = "G-EKD5M31L6Z"
+
+[pagination]
+  disableAliases = false
+  pagerSize = 10
 
 [services]
   [services.googleAnalytics]
