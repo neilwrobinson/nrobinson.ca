@@ -5,6 +5,9 @@ draft: false
 featuredImage: "/images/2024-12-19/cyclist-multitasking-bw.jpg"
 featuredImageAlt: "women on a bike multitasking" 
 tags: ["Multitask"]
+summary: "I read a great quote from Clifford Nass, a psychology professor at Standford University. Here's what he says regarding multitasking:
+
+>People who multitask all the time can't filter out irrelevancy. They can't manage a working memory. They're chronically distracted."
 ---
 
 #  The Multitasking Myth
