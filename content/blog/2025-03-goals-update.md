@@ -1,7 +1,7 @@
 ---
 title: "First Year Goals Update"
 date: 2025-03-15T13:36:43-04:00
-draft: true
+draft: false
 featuredImage: "/images/2025-01-01/goals-2025.jpg"
 featuredImageAlt: "Picture of a target with Goals mind mapped toward the target"
 ---
