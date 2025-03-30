@@ -1,0 +1,64 @@
+:root {
+  --accent: #226997;
+  --accent-ligher: #229999;
+  --main: #333;
+  --light: #666;
+  --lighter: #f3f3f3;
+  --border: #e6e6e6;
+  --bg: #fff;
+}
+body {
+  background: var(--bg);
+  color: var(--main);
+  font-family: sans-serif;
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+header {
+  border-bottom: 1px solid #222;
+  margin-bottom: 1rem;
+}
+
+footer {
+  border-top: 1px solid #222;
+  margin-top: 1rem;
+}
+
+a, a:visited {
+  color: var(--accent);
+  text-decoration: underline;
+}
+a:hover, a:focus, a:active {
+  color: var(--accent-ligher);
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main);
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: var(--accent);
+}
+
+nav li a, nav li a:visited, nav li a:hover {
+  display: block;
+  padding: 15px 15px;
+  border-bottom: 1px solid #222;
+  color: var(--bg);
+}
