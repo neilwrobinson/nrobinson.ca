@@ -1,6 +1,6 @@
 {{ define "main" }}
 	<main class="pa3 pa5-ns">
-		<section class="mw7 center baskerville">
+		<section class="mw7 center">
 			{{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
 			{{ range $paginator.Pages }}
 				{{ .Render "summary" }}
