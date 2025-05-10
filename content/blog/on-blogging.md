@@ -17,3 +17,5 @@ I read blogs where the blog is very short. Only a few sentences or two small par
 
 I write my own blog posts. I don’t have an editor to proofread and ensure my writing is free of grammar mistakes. My blog is not going to be perfect. I am not running a professional media distribution company like a newspaper or magazine. I am just one person. I think people understand this when they are reading personal blogs. I hope you are not jarred by the comma splice or split infinitive. 
 
+#### Sources and Credits:
+Blog image credit: "Keep up and blog on" by futureshape is licensed under CC BY 2.0. https://www.flickr.com/photos/55231259@N00/4977096245
