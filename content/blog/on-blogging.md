@@ -9,6 +9,8 @@ featuredImageAlt: "Keep Up Blog On wording on a coaster"
 
 I have been reading many blogs lately. I never realized how reading other people's blogs could persuade me into new ideas and attitudes toward blogging and so many other subjects. Most of the bloggers suggest not to curate to a specific audience or ensure your blog post is perfect and free from imperfections. They recommend just write and share your experiences.
 
+<!--more-->
+
 What has been holding me back so much was a fear. The fear of looking unintelligent by making grammar mistakes or if I express the wrong idea. The idea that my blog needed to be on a certain topic. As if the reader was only interested in one dimension. The fear is unhealthy. The fear stops me from writing; stops me from thinking; and stops me from growing. 
 
 ## Short blogs (micro blogs?)

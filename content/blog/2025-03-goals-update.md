@@ -7,6 +7,8 @@ featuredImageAlt: "Picture of a target with Goals mind mapped toward the target"
 ---
 I wanted to share my updates on my goals now that we are two and half months into 2025.
 
+<!--more-->
+
 ## Goal #1 Improve Communication Skills 
 
 I joined Toastmasters in March 2025. I started participating in public speaking immediately. Toastmasters encourages people to start developing their speaking skills is by participating in this concept called Table Topics. At each meeting, a person can randomly select 5 to 10 people to answer a random question. The questions are random to help participants to develop impromptu and extemporaneous speech delivery. The speech duration can be from one to two and one-half minute long.  
