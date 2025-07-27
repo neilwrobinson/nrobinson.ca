@@ -6,7 +6,7 @@ featuredImage: "/images/2025-02-05/Template_alt_full_black_22.svg"
 featuredImageAlt: "Picture of two curly braces to indicate template insertion"
 tags: ["ERB", "ERB template", "metaprogramming", "Ruby"]
 ---
-# ERB and metaprogramming
+## ERB and metaprogramming
 
 I was using ERB to generate a template over the past weekend. I discovered that you can use ERB to pry open a class and add a new method into your class that will render a template. 
 
