@@ -19,7 +19,7 @@ Active Storage public buckets are public by default. The URL is publicly exposed
 
 You must be aware of what you are attaching using Active Storage to ensure you are not exposing information unintentionally.
 
-```
+```ruby {style=catppuccin-macchiato}
 config.active_storage.draw_routes = false
 ```
 The configuration will disable Active Storage default routes.
@@ -29,6 +29,6 @@ Then you have to implement your own authorized / authenticated controllers to sh
 ## My Usage
 I am trying to keep dependencies and extra cost at a minimum right now, and I am using active storage as a local object storage on the servers hard disk instead of on a public cloud buckets such as GCP, AWS, or MS Azure. It is another item to backup, but for now it should be okay since it is relatively a small bucket.
 
-Sources
-[^1]: Active Storage Blog, see polymorphic table. https://pragmaticstudio.com/tutorials/using-active-storage-in-rails
+## Sources
+[^1]: 1: Active Storage Blog, see polymorphic table. https://pragmaticstudio.com/tutorials/using-active-storage-in-rails
 
