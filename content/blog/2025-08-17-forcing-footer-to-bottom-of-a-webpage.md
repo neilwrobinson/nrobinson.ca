@@ -1,17 +1,21 @@
 ---
 title: "Forcing Footer to Bottom of a Webpage"
-date: 2025-08-13T09:21:42-04:00
+date: 2025-08-17T09:21:42-04:00
 draft: true
 featuredImage:
 featuredImageAlt:
 tags: ["HTML","CSS", "Web Design"]
 
 ---
-I was really stumped on how to create a webpage where the footer is pressed against the bottom of the screen. The issue would only show up if you had screen size where the content was short and the footer would be floating in the middle of the screen instead of at the bottom of the screen. 
+I was really stumped on how to create a webpage where the footer is pressed against the bottom of the screen. I am excited to share with you how easy to have the footer stick to the bottom of the screen.
 
-I had this issue before, but I would work around it. But recently I discovered a few great resources on CSS, which really helped me understand how to perform common design features such as forcing the footer to the bottom of the page.
+The issue would only show up if you had screen size where the content was short and the footer would be floating in the middle of the screen instead of at the bottom of the screen.
 
-I found an awesome website at moderncss.dev, which clearly explains how to achieve this effect.
+It’s always annoying to discover one of your pages where the footer is floating in the middle of the screen. The reason why the footer floats in the middle of the screen is because the footer would be placed after the short content. And after the footer content space, there would be white space or blank content after the footer tag until the end of the page. 
+
+I had this issue before, but I would work around it. Mostly by ignoring the problem. But recently I discovered an awesome CSS site, which really helped me understand how to perform common design features such as forcing the footer to the bottom of the page. I can’t wait to discover all the other features. I only started on first item, and I was happy to learn something. But what I enjoyed most was the explanation of the solution; it really helped to understand the underlying mechanics of the browser rendering. 
+
+The awesome website is https://moderncss.dev, which clearly explains how to achieve this effect.
 
 https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/
 
