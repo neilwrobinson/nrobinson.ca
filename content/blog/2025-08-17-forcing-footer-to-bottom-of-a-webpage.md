@@ -1,7 +1,7 @@
 ---
 title: "Forcing Footer to Bottom of a Webpage"
 date: 2025-08-17T09:21:42-04:00
-draft: true
+draft: false
 featuredImage:
 featuredImageAlt:
 tags: ["HTML","CSS", "Web Design"]
