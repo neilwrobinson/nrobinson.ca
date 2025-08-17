@@ -1,24 +1,25 @@
 :root {
-  --accent: #226997;
-  --accent-ligher: #229999;
+  --accent: #000000;
+  --accent-ligher: #056141;
   --main: #333;
   --light: #666;
   --lighter: #f3f3f3;
   --border: #e6e6e6;
   --bg: #fff;
+  --nav-bg: #D7FDF0;
+  --nav-bg-hover: #c4f9e6;
 }
 body {
   background: var(--bg);
   color: var(--main);
-  font-family: sans-serif;
-  font-size: 1.1em;
+  font-family: Ubuntu, Roboto,'Open Sans', -apple-system, sans-serif;
   line-height: 1.5;
   margin: 0 auto;
+  padding: 0 1em;
   max-width: 768px;
 }
 
 header {
-  border-bottom: 1px solid #222;
   margin-bottom: 1rem;
 }
 
@@ -27,9 +28,13 @@ footer {
   margin-top: 1rem;
 }
 
-a, a:visited {
+a {
   color: var(--accent);
   text-decoration: underline;
+  font-size: large;
+}
+a:visited {
+  color: #518;
 }
 a:hover, a:focus, a:active {
   color: var(--accent-ligher);
@@ -39,13 +44,14 @@ nav {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  border: 3px solid;
 }
 
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: var(--main);
+  background-color: var(--nav-bg);
 }
 
 nav ul li {
@@ -53,12 +59,21 @@ nav ul li {
 }
 
 nav ul li a:hover {
+  background-color: var(--nav-bg-hover);
+}
+
+nav ul li a.current {
   background-color: var(--accent);
 }
 
 nav li a, nav li a:visited, nav li a:hover {
   display: block;
   padding: 15px 15px;
-  border-bottom: 1px solid #222;
-  color: var(--bg);
+  color: black;
+  font-size: large;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 1em;
 }
