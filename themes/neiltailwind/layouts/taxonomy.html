@@ -1,0 +1,23 @@
+{{ define "main" }}
+  <h1 class="text-4xl my-3 tracking-tight">{{ .Title }}</h1>
+  <h2>Taxonomy</h2>
+  {{ .Content }}
+  
+  <ul class="text-sm">
+  {{ range sort .Pages "LinkTitle" }}
+      <li class="inline-block my-3">
+        <a class="underline
+                  hover:text-zinc-600
+                  hover:underline 
+                  hover:underline-offset-4 
+                  hover:decoration-cyan-500
+                  underline underline-offset-3 decoration-cyan-600
+        " href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        <span class="text-zinc-400">
+         [{{ .Pages.Len }}]
+        </span>
+      </li>
+    
+  {{ end }}
+  </ul>
+{{ end }}

@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <h1 class="text-4xl my-3 font-bold tracking-tight">{{ .Title }}</h1>
+  {{ .Content }}
+  <ul>
+  {{ range sort .Pages "LinkTitle" }}
+    <h2>
+      <li class="inline-block my-2">
+        <a class="underline
+                    hover:text-zinc-600
+                    hover:underline 
+                    hover:underline-offset-4 
+                    hover:decoration-cyan-500
+                    underline underline-offset-3 decoration-cyan-600
+          " href="{{ .RelPermalink }}">{{ .LinkTitle }}
+        </a>
+      </li>
+    </h2>
+  {{ end }}
+  </ul>
+{{ end }}

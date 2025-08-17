@@ -3,3 +3,4 @@ firebase.json
 .firebase*
 .hugo_build.lock
 public/
+node_modules/

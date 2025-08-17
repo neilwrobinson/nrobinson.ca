@@ -1,0 +1,22 @@
+{{ define "main" }}
+Section.html
+  <h1 class="text-4xl my-3 font-bold tracking-tight">{{ .Title }}</h1>
+  <hr>
+  <article class="markdown">
+    {{ .Content }}
+  </article>
+
+  {{ range .Pages }}
+    <h2 class="mt-4 text-3xl font-bold tracking-tight">
+      <a class="underline          
+                hover:text-zinc-600
+                hover:underline 
+                hover:underline-offset-4 
+                hover:decoration-cyan-500
+                underline underline-offset-3 decoration-cyan-600
+      " href="{{ .RelPermalink }}">{{ .LinkTitle }}
+      </a>
+    </h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

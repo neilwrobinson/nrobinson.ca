@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ .Content }}
+  {{ range site.RegularPages }}
+  <article>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    
+    <h2 class="mt-4 text-3xl font-bold tracking-tight">
+      <a class="underline          
+                hover:text-zinc-600
+                hover:underline 
+                hover:underline-offset-4 
+                hover:decoration-cyan-500
+                underline underline-offset-3 decoration-cyan-600
+      " href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </h2>
+    <time datetime="{{ $dateMachine }}" class="mt-1 mb-4 block">
+      {{ $dateHuman }}
+    </time>
+    {{ .Summary }}
+  </article>
+  {{ end }}
+
+{{ end }}
