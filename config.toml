@@ -2,8 +2,9 @@ baseURL = 'https://nrobinson.ca/'
 languageCode = 'en-us'
 title = 'Neil Robinson'
 
-theme = "portrait"
-
+theme = "neiltailwind"
+#theme = "portrait"
+#theme = "neil1MBclub"
 
 googleAnalytics = "G-EKD5M31L6Z"
 
@@ -30,18 +31,23 @@ dateformat = "Jan 2, 2006"
 description = "Neil Robinson, CPA, CA - Accountant"
 keywords = "accountant, finance, CPA, CA, Chartered Professional Accountant"
 
-[[menu.main]]
-name = "home"
-weight=100
-url = "/"
-[[menu.main]]
-name = "blog"
-weight=200
-url = "/blog"
-[[menu.main]]
-name = "about me"
-weight=300
-url ="/about"
+[menu]
+  [[menu.main]]
+    name = "home"
+    weight=100
+    url = "/"
+  [[menu.main]]
+    name = "blog"
+    weight=200
+    url = "/blog"
+  [[menu.main]]
+    name = "about me"
+    weight=300
+    url ="/about"
+  [[menu.main]]
+    name = "tags"
+    weight=400
+    url ="/tags"
 #[[menu.main]]
 #name = "resume"
 #weight=400
@@ -52,6 +58,7 @@ url ="/about"
 #url ="/contact"
 
 [Params.footer]
-copyright = "Neil Robinson This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License."
 copyrightLink = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+copyrightName = "Neil Robinson"
 
