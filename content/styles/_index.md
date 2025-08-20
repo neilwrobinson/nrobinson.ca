@@ -38,9 +38,8 @@ foobar = 2 + 2;
 
 ![Alt text for image](/images/2024-12-19/cyclist-multitasking-bw.jpg)
 
----
-
 Horizontal rule
+---
 
 **Tables:**
 

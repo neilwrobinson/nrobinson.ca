@@ -19,7 +19,8 @@
             margin-block: 16px;
             max-width: 30em;
         }
-            a {
+        
+        a {
         text-decoration: underline;
         }
 
@@ -51,6 +52,16 @@
             font-size: var(--text-sm);
             font-weight: 300;
         }
+
+        ul, ol {
+            @apply list-inside;
+            @apply list-disc;
+            @apply mb-2;
+        }
+        ol {
+            @apply list-decimal;
+        }
+        
         th {
             background-color: var(--color-slate-100);
         }

@@ -454,6 +454,14 @@
       font-size: var(--text-sm);
       font-weight: 300;
     }
+    ul, ol {
+      list-style-position: inside;
+      list-style-type: disc;
+      margin-bottom: calc(var(--spacing) * 2);
+    }
+    ol {
+      list-style-type: decimal;
+    }
     th {
       background-color: var(--color-slate-100);
     }
