@@ -28,6 +28,15 @@
             color: var(--color-zinc-600);
         }
 
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            @apply mt-5;
+        }
+
         h1 {
             font-size: var(--text-2xl);
             font-weight: 700;
@@ -67,7 +76,7 @@
         }
 
         table, th, td {
-            margin: 5px 0 50px 5px;
+            @apply my-4;
             border: 1px solid;
             padding: 5px;
         }

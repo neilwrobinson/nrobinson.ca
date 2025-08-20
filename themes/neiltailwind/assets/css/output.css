@@ -273,6 +273,12 @@
   .w-100 {
     width: calc(var(--spacing) * 100);
   }
+  .border-collapse {
+    border-collapse: collapse;
+  }
+  .resize {
+    resize: both;
+  }
   .flex-col {
     flex-direction: column;
   }
@@ -281,6 +287,10 @@
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-t-2 {
     border-top-style: var(--tw-border-style);
@@ -377,6 +387,10 @@
   .underline-offset-3 {
     text-underline-offset: 3px;
   }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
   .filter {
     filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
   }
@@ -430,6 +444,9 @@
     a:hover {
       color: var(--color-zinc-600);
     }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: calc(var(--spacing) * 5);
+    }
     h1 {
       font-size: var(--text-2xl);
       font-weight: 700;
@@ -466,7 +483,7 @@
       background-color: var(--color-slate-100);
     }
     table, th, td {
-      margin: 5px 0 50px 5px;
+      margin-block: calc(var(--spacing) * 4);
       border: 1px solid;
       padding: 5px;
     }
@@ -484,6 +501,11 @@
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
+}
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
 }
 @property --tw-blur {
   syntax: "*";
@@ -544,6 +566,7 @@
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-tracking: initial;
+      --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;
       --tw-contrast: initial;
