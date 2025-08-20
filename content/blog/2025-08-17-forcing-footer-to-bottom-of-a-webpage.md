@@ -19,6 +19,7 @@ The awesome website is https://moderncss.dev, which clearly explains how to achi
 
 https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/
 
+### HTML
 Here's the Flexbox method code from the modern css website.[^1]
 
 ```css {style=catppuccin-macchiato}
@@ -33,6 +34,7 @@ footer {
 }
 ```
 
+### TailwindCSS
 Here's my translations into TailwindCSS:
 
 ```html {style=catppuccin-macchiato}
