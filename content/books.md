@@ -86,3 +86,4 @@ Here's a list of my book recommendations:
 * Dreyer's English by Dreyer, Benjamin
 * On Writing Well by Zinsser, William
 * Several Short Sentences About Writing by Klinkenborg, Verlyn
+* Writing for Impact by Bill Birchard
