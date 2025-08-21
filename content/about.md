@@ -1,9 +1,12 @@
 ---
+layout: "about"
 title: "About me"
 date: 2018-02-24T17:37:40-05:00
 draft: false
 showpagemeta: false
 showcomments: false
+featuredImage: "/images/neil_robinson.jpg"
+featuredImageAlt: "Picture of Neil Robinson"
 tags: ["About me", "Neil Robinson, CPA, CA"]
 type: 'miscellaneous'
 ---

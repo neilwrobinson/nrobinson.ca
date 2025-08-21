@@ -2,8 +2,8 @@
 title: "Forcing Footer to Bottom of a Webpage"
 date: 2025-08-17T09:21:42-04:00
 draft: false
-featuredImage:
-featuredImageAlt:
+featuredImage: "/images/2025-08-17/css-black-background-sm.jpg"
+featuredImageAlt: "Picture of CSS wording on black background"
 tags: ["HTML","CSS", "Web Design"]
 
 ---
@@ -62,5 +62,10 @@ The solution works great, but trying to solve the problem is tough because you n
 
 
 ## Source Credits
+Cover Image Credit[^2]
+
 [^1]: Written by Stephanie Eckles on April 9, 2025 
 https://moderncss.dev/keep-the-footer-at-the-bottom-flexbox-vs-grid/
+
+[^2]: Cover Image Credit: "css-miami-desktop" by geirarne is licensed under CC BY 2.0.
+https://www.flickr.com/photos/18155385@N00/110995239
