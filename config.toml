@@ -2,8 +2,8 @@ baseURL = 'https://nrobinson.ca/'
 languageCode = 'en-us'
 title = 'Neil Robinson'
 
-theme = "neiltailwind"
-#theme = "portrait"
+#theme = "neiltailwind"
+theme = "portrait"
 #theme = "neil1MBclub"
 
 googleAnalytics = "G-EKD5M31L6Z"
@@ -62,3 +62,4 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 copyrightLink = "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 copyrightName = "Neil Robinson"
 
+cleanDestinationDir = true
