@@ -70,7 +70,7 @@
         ol {
             @apply list-decimal;
         }
-        
+
         th {
             background-color: var(--color-slate-100);
         }
@@ -79,6 +79,23 @@
             @apply my-4;
             border: 1px solid;
             padding: 5px;
+        }
+    }
+
+    .footnotes {
+        
+        ol {
+            @apply list-inside;
+            @apply list-decimal;
+            @apply my-2;
+        }
+
+        li {
+            @apply my-4;
+        }
+
+        li p {
+            display: inline;
         }
     }
 
